@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body>
+<div id=calu">
+      <form name="Calci">
+    <input type="text" name="dis"/><br>
+    <input type="button" value="1" onclick="Calci.dis.value += '1'"/>
+    <input type="button" value="2" onclick="Calci.dis.value += '2'"/>
+    <input type="button" value="3" onclick="Calci.dis.value += '3'"/>
+    <input type="button" value="+" onclick="Calci.dis.value += '+'"/><br>
+    <input type="button" value="4" onclick="Calci.dis.value += '4'"/>
+    <input type="button" value="5" onclick="Calci.dis.value += '5'"/>
+    <input type="button" value="6" onclick="Calci.dis.value += '6'"/>
+    <input type="button" value="-" onclick="Calci.dis.value += '-'"/><br>
+    <input type="button" value="7" onclick="Calci.dis.value += '7'"/>
+    <input type="button" value="8" onclick="Calci.dis.value += '8'"/>
+    <input type="button" value="9" onclick="Calci.dis.value += '9'"/>
+    <input type="button" value="*" onclick="Calci.dis.value += '*'"/><br>
+    <input type="button" value="0" onclick="Calci.dis.value += '0'"/>
+    <input type="button" value="c" onclick="Calci.dis.value = ''"/>
+    <input type="button" value="=" onclick="Calci.dis.value = eval(Calci.dis.value)"/>
+    <input type="button" value="/" onclick="Calci.dis.value += '/'"/>
+   </form>
+   </div>
+   </body>
+   </html>
